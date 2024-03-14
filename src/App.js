@@ -3,7 +3,7 @@ import Self from './components/self/Self';
 import Project from './components/project-list/Project'
 import Interest from './components/interests/Interest'
 import Contact from './components/contact/Contact'
-// import Timeline from './components/timeline/Timeline'
+import Timeline from './components/timeline/Timeline'
 
 function App() {
 
@@ -16,7 +16,7 @@ function App() {
         <Project />
         {/* <Timeline /> */}
         <Interest />
-        <Contact />
+        {/* <Contact /> */}
       </div>
     </div>
   );

@@ -11,11 +11,11 @@ const Navbar = () => {
                 <a href="#project">/projects</a>
                 {/* <a href="#timeline">/timeline</a> */}
                 <a href="#interests">/interests</a>
-                <a href="#contact" style={{
+                {/* <a href="#contact" style={{
                     color: "white",
                     backgroundColor: '#5C6BC0',
                     borderRadius: '8px'
-                }}>/contact</a>
+                }}>/contact</a> */}
 
             </div>
 

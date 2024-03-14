@@ -1,0 +1,124 @@
+.aboutItem {
+    background: #333;
+    border-radius: 15px;
+
+    word-wrap: break-word;
+}
+
+.container {
+    position: relative;
+    /* justify-content: space-between; */
+    margin-top: 40px;
+    z-index: 1;
+    margin-left: 5%;
+    margin-right: 5%;
+    min-height: 90vh;
+
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project {
+    margin-bottom: 10px;
+}
+
+.projectName {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.projectCard {
+    text-align: left;
+    /* box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1); */
+
+    border: 1px solid #d9d9d9;
+
+    /* padding: 10px; */
+    border-radius: 10px;
+
+    width: 15vw;
+    box-shadow: 7px 7px #797979;
+}
+
+.currentProject {
+    text-align: left;
+    /* box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1); */
+
+    border: 1px solid #d9d9d9;
+
+    /* padding: 10px; */
+    border-radius: 10px;
+
+    width: 30vw;
+    margin-bottom: -120px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 7px 7px #797979;
+}
+
+.projectCardList {
+    position: relative;
+    display: flex;
+    align-items: left;
+    gap: 40px;
+    flex-wrap: wrap;
+    width: 55vw;
+    margin-left: 130px;
+}
+
+.projectCardText {
+    padding: 10px;
+    height: 60%;
+}
+
+.projectDescription {
+    margin-bottom: 25px;
+}
+
+.image {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    height: 100px;
+}
+
+.projects {
+    position: relative;
+    display: flex; /* Activate Flexbox */
+    flex-direction: row;  /* Arrange items in a row  */
+    /* gap: 10px;  */
+    height: 60vh;
+  }
+
+.image1 {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    height: 50vh;
+}
+
+.currentProjectCardText {
+    padding: 10px;
+    flex: 1;
+}
+
+.techStack {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.techItem {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    font-size: 14px;
+}

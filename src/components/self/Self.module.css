@@ -1,0 +1,25 @@
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    min-height: 90vh;
+}
+
+.description {
+    font-size: 1vw;
+}
+
+.title {
+    /* font-size: 110px; */
+    font-size: 5vw;
+}
+
+.image {
+    max-width: 50vw;
+    max-height: 60vh;
+}

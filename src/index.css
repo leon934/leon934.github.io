@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  color: #333;
+  font-family: "Roboto Mono";
+
+  /* background-color: #101214; */
+  scroll-behavior: smooth;
+  scroll-margin-top: 1.65em;
+}
+
+/* scroll bar effects */
+::-webkit-scrollbar {
+  width: 10px;
+  
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #666;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.navbar {
+  /* max-width: 90vw; */
+  margin: 0 auto;
+
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #f2f2f2;
+
+  font-size: 15px;
+
+  position: sticky;
+  
+  z-index: 10;
+  background-color: white;
+  top: 0;
+}
+
+.navbar .links {
+  margin-left: auto;
+  font-weight: bold;
+}
+
+.navbar .links a {
+  font-family: "Roboto Mono", Arial;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:hover {
+  color: #5C6BC0;
+}
+
+.home { 
+  font-family: Arial;
+
+  padding: 20px;
+  font-size: 15px;
+  max-width: 30vw;
+}
+

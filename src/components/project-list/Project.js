@@ -46,6 +46,7 @@ export const Project = () => {
                     image_src="./blue_background.png"
                     tech_stack={['Python', 'Javascript', 'Flask', 'React', 'OpenCV', 'Pytesseract']}
                 />
+
                 <ProjectCard
                     project_name="AIRcontrol"
                     project_description="attempts to automate air traffic at DFW airport"
@@ -54,6 +55,7 @@ export const Project = () => {
                     image_src="./blue_background.png"
                     tech_stack={['React', 'MongoDB', 'Express.js', 'Node.js', 'Javascript']}
                 />
+
                 <ProjectCard
                     project_name="cherry curriculum"
                     project_description="helps people learn using concepts provided"
@@ -62,14 +64,16 @@ export const Project = () => {
                     image_src="./blue_background.png"
                     tech_stack={['Python', 'OpenAI API']}
                 />
+
                 <ProjectCard
                     project_name="howdy habits"
-                    project_description="daily habit tracker for business owners"
+                    project_description="daily habit tracker website to improve quality of life"
                     github_link="https://github.com/c2cBethany/23-HOWDYHACK"
                     image_name="card"
                     image_src="./blue_background.png"
                     tech_stack={['Axios', 'Javascript', 'LowDB', 'Express.js']}
                 />
+
                 <ProjectCard
                     project_name="mortality predictor"
                     project_description="given specific set of data, predicts death based on medical data"

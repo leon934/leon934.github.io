@@ -4,8 +4,8 @@
 }
 
 .image {
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
 }
 
 .astronautImage {
@@ -60,22 +60,23 @@
     /* height: 60vh; */
 
     justify-content: center;
-    
-    font-size: 1.5rem;
 }
 
 .formBox {
-    font-size: 1.5rem;
     width: calc(var(--right-width) / 2 - 2vw);
 }
 
 .textBox {
-    width: calc(var(--right-width) - 3vw);
-    font-size: 1.5rem;
+    width: calc(var(--right-width) - 2.5vw);
     height: 40vh;
 
     text-align: left;
     resize: none;
+}
+
+.formBox, .textBox {
+    border-radius: 3px;
+    border: 2px solid #333;
 }
 
 .contactPage {
@@ -89,7 +90,13 @@
     
     margin-top: 30px;
 
-    gap: 8vw;
+    gap: 4vw;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 @media (max-width: 1200px) {

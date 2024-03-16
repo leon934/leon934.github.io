@@ -28,6 +28,10 @@ export const Contact = () => {
                         <a href="https://www.linkedin.com/in/leonlnguyen/">
                             <img src="/linkedin_logo.png" alt="linkedin_logo" className={styles.image}/>
                         </a>
+
+                        <a href="https://drive.google.com/file/d/1vat0cdewgveFIok_tZUC01KhVoT5Bw8h/view?usp=sharing">
+                            <img src="/resume_logo.png" alt="resume_logo" className={styles.image}/>
+                        </a>
                     </div>
                 </div>
 
@@ -69,12 +73,10 @@ export const Contact = () => {
                     </div>
                 </div>
 
-                <img src="/send_button.png" alt="send_button" style={{width:"130px", marginLeft:"40px"}}/>
+                <img src="/send_button.png" alt="send_button" style={{width:"80px", marginLeft:"20px"}}/>
             </div>
         </div>
-
     </section>
-        
   )
 }
 

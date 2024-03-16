@@ -16,7 +16,7 @@ function App() {
         <Project />
         {/* <Timeline /> */}
         <Interest />
-        {/* <Contact /> */}
+        <Contact />
       </div>
     </div>
   );

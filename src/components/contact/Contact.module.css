@@ -1,0 +1,132 @@
+:root {
+   --left-width: 30vw;
+   --right-width: 50vw;
+}
+
+.image {
+    width: 50px;
+    height: 50px;
+}
+
+.astronautImage {
+    width: var(--left-width);
+    /* height: 40vw; */
+}
+
+.infoCard {
+    width: var(--left-width);
+}
+
+.leftSide {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 0;
+
+    gap: 30px;
+}
+
+.item {
+    display: flex;
+    margin-top: 10px;
+    margin-left: -40px;
+    gap: 10px;
+}
+
+.contactCard {
+    border: 1px solid #d9d9d9;
+
+    /* padding: 10px; */
+    border-radius: 10px;
+
+    width: var(--right-width);
+    box-shadow: 7px 7px #797979;
+}
+
+.backgroundImage {
+    width: var(--right-width);
+    height: 10rem;
+
+    border-radius: 10px 10px 0 0;
+}
+
+.contactText {
+    padding: 20px;
+
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    /* height: 60vh; */
+
+    justify-content: center;
+    
+    font-size: 1.5rem;
+}
+
+.formBox {
+    font-size: 1.5rem;
+    width: calc(var(--right-width) / 2 - 2vw);
+}
+
+.textBox {
+    width: calc(var(--right-width) - 3vw);
+    font-size: 1.5rem;
+    height: 40vh;
+
+    text-align: left;
+    resize: none;
+}
+
+.contactPage {
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconLinks {
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 30px;
+
+    gap: 8vw;
+}
+
+@media (max-width: 1200px) {
+    .contactPage {
+      flex-direction: column;
+      align-items: center;
+      gap: 50px;
+    }
+  
+    .contactText {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .leftSide {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .contactCard {
+        width: 90vw;
+        margin-bottom: 5vh;
+    }
+
+    .backgroundImage {
+        width: 100%;
+    }
+
+    .formBox {
+        width: 100%;
+    }
+    
+    .textBox {
+        width: 207.5%;
+    }
+
+    .infoCard {
+        width: 80vw;
+    }
+  }

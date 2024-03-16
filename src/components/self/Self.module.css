@@ -1,17 +1,15 @@
+@import "../../variables.css";
+
 .container {
-    position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    z-index: 1;
-    margin-left: 5%;
-    margin-right: 5%;
     
-    min-height: 90vh;
+    justify-content: space-between;
 }
 
 .description {
     font-size: 1vw;
+    text-align: justify;
 }
 
 .title {
@@ -20,6 +18,35 @@
 }
 
 .image {
-    max-width: 50vw;
+    /* max-width: 60vw; */
     max-height: 60vh;
 }
+
+@media (max-width: 1200px) {
+    .container {
+      flex-direction: column-reverse;
+      margin-left: 10%;
+      margin-right: 10%;
+      justify-content: center;
+      gap: 10vh;
+    }
+
+    .image {
+        max-height: 40vh;
+    }
+
+    .title {
+        font-size: 7vw;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: center;
+    }
+
+    .description {
+        font-size: 2vw;
+        /* margin-left: 5%; */
+        margin-right: 5%;
+        text-align: center;
+
+    }
+  }

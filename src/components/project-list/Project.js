@@ -5,7 +5,7 @@ import ProjectCard from './ProjectCard'
 
 export const Project = () => {
   return (
-    <section className={styles.container}>
+    <section className="container">
         <h1 className="title" id="project">
             projects
         </h1>
@@ -14,7 +14,7 @@ export const Project = () => {
 
         <div className={styles.projects}>
             <div className={styles.currentProject}>
-                <img src='./project_background.png' alt='current_project_background' className={styles.image1}/>
+                <img src='./blue_background.png' alt='current_blue_background' className={styles.image1}/>
 
                 <div className={styles.currentProjectCardText}>
                     <h2 className={styles.projectName}>word bites solver</h2>
@@ -31,7 +31,7 @@ export const Project = () => {
                         ))}
                     </div>
 
-                    <a href='ewnfewnfkew' className={styles.link}>
+                    <a href='https://github.com/leon934/rowdyhack24' className={styles.link}>
                         <img src="/github_logo.png" alt="github_logo" style={{height: '20px', width:'20px'}}/>
                     </a>
                 </div>
@@ -43,7 +43,7 @@ export const Project = () => {
                     project_description="solves Word Bites board given picture"
                     github_link="https://github.com/leon934/rowdyhack24"
                     image_name="card"
-                    image_src="./project_background.png"
+                    image_src="./blue_background.png"
                     tech_stack={['Python', 'Javascript', 'Flask', 'React', 'OpenCV', 'Pytesseract']}
                 />
                 <ProjectCard
@@ -51,7 +51,7 @@ export const Project = () => {
                     project_description="attempts to automate air traffic at DFW airport"
                     github_link="https://github.com/leon934/tamuhack24"
                     image_name="card"
-                    image_src="./project_background.png"
+                    image_src="./blue_background.png"
                     tech_stack={['React', 'MongoDB', 'Express.js', 'Node.js', 'Javascript']}
                 />
                 <ProjectCard
@@ -59,7 +59,7 @@ export const Project = () => {
                     project_description="helps people learn using concepts provided"
                     github_link="https://github.com/leon934/tidalhack23"
                     image_name="card"
-                    image_src="./project_background.png"
+                    image_src="./blue_background.png"
                     tech_stack={['Python', 'OpenAI API']}
                 />
                 <ProjectCard
@@ -67,7 +67,7 @@ export const Project = () => {
                     project_description="daily habit tracker for business owners"
                     github_link="https://github.com/c2cBethany/23-HOWDYHACK"
                     image_name="card"
-                    image_src="./project_background.png"
+                    image_src="./blue_background.png"
                     tech_stack={['Axios', 'Javascript', 'LowDB', 'Express.js']}
                 />
                 <ProjectCard
@@ -75,7 +75,7 @@ export const Project = () => {
                     project_description="given specific set of data, predicts death based on medical data"
                     github_link="https://github.com/leon934/datathon2324"
                     image_name="card"
-                    image_src="./project_background.png"
+                    image_src="./blue_background.png"
                     tech_stack={['Python', 'TensorFlow', 'pandas']}
                 />
             </div>

@@ -29,7 +29,7 @@ export const Contact = () => {
                             <img src="/linkedin_logo.png" alt="linkedin_logo" className={styles.image}/>
                         </a>
 
-                        <a href="https://drive.google.com/file/d/1vat0cdewgveFIok_tZUC01KhVoT5Bw8h/view?usp=sharing">
+                        <a href="https://drive.google.com/file/d/1rQChhUjaispcJ0sEtpqndjX2v2nALKWN/view?usp=sharing">
                             <img src="/resume_logo.png" alt="resume_logo" className={styles.image}/>
                         </a>
                     </div>

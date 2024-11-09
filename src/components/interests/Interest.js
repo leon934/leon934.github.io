@@ -16,7 +16,7 @@ export const Interest = () => {
             <ul className={styles.list}>
                 <InterestComponent
                     title='hiking'
-                    description='i love to hike with my friends! the Colorado Bend was the last national i went to and we hiked 12 miles!'
+                    description='i love to hike with my friends! the Colorado Bend was the last national park i went to and we hiked 12 miles!'
                 />
 
                 <InterestComponent 

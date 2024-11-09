@@ -1,8 +1,15 @@
 import React from 'react'
 import styles from "./Self.module.css"
 import '../style.css'
+import { motion, Variants} from "framer-motion";
 
 export const Self = () => {
+  const textVariant = {
+    offscreen: {
+      y: 300
+    }
+  };
+
   return (
     <section className={`container ${styles.container}`} id="self">
       <div className={styles.content}>

@@ -17,27 +17,35 @@ export const Project = () => {
                 <img src='./blue_background.png' alt='current_blue_background' className={styles.image1}/>
 
                 <div className={styles.currentProjectCardText}>
-                    <h2 className={styles.projectName}>word bites solver</h2>
+                    <h2 className={styles.projectName}>arcadia</h2>
 
                     <p className={styles.projectDescription}>
-                        Utilizes an image processing algorithm to detect word board and put into matrix to be processed.
-                        This is done by generating a permutation of strings, checking their validity against a given dictionary, 
-                        and backtracking to check if the prefix of a permutation is valid.
+                        Done at HackTX 2024. This project utilizes computer vision and combines it with classic video games. 
+                        Front end built with Three.js and React. Designed by me using Figma. Check it out at <a href='http://arcadium.tech' target='_blank'>arcadium.tech</a>
                     </p>
 
                     <div className={styles.techStack}>
-                        {['Python', 'Javascript', 'Flask', 'React', 'OpenCV', 'Pytesseract'].map((tech, index) => (
+                        {['next.js', 'React', 'Figma', 'Three.js', 'Mediapipe'].map((tech, index) => (
                             <span key={index} className={styles.techItem}>{tech}</span>
                         ))}
                     </div>
 
-                    <a href='https://github.com/leon934/rowdyhack24' className={styles.link}>
+                    <a href='https://github.com/ericliu-12/hacktx24/' className={styles.link}>
                         <img src="/github_logo.png" alt="github_logo" style={{height: '20px', width:'20px'}}/>
                     </a>
                 </div>
             </div>
 
             <div className={styles.projectCardList}>
+                <ProjectCard
+                    project_name="penman"
+                    project_description="application that attempts to automatically solves handwritten equations"
+                    github_link="https://github.com/leon934/penman"
+                    image_name="card"
+                    image_src="./blue_background.png"
+                    tech_stack={['Python', 'React', 'Flask']}
+                />
+
                 <ProjectCard
                     project_name="word bites solver"
                     project_description="solves Word Bites board given picture"

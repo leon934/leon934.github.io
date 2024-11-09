@@ -8,11 +8,6 @@
     height: 35px;
 }
 
-.astronautImage {
-    width: var(--left-width);
-    /* height: 40vw; */
-}
-
 .infoCard {
     width: var(--left-width);
 }
@@ -82,15 +77,6 @@
 .contactPage {
     display: flex;
     justify-content: space-between;
-}
-
-.iconLinks {
-    display: flex;
-    justify-content: center;
-    
-    margin-top: 30px;
-
-    gap: 4vw;
 }
 
 .form {
